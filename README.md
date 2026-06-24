@@ -19,21 +19,8 @@ A Machine Learning web application that predicts customer churn using a Random F
 - Plotly
 - Joblib
 
-## 📂 Project Structure
 
-```text
-customer-churn-prediction/
-│
-├── app.py
-├── requirements.txt
-├── README.md
-│
-├── data/
-│   └── processed_churn.csv
-│
-└── model/
-    ├── churn_model.pkl
-    └── scaler.pkl
+  
 ```
 
 ## ⚙️ Installation
