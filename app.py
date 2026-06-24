@@ -10,7 +10,7 @@ st.set_page_config(
 # -----------------------------
 # LOAD DATA AND MODEL
 # -----------------------------
-df = pd.read_csv("data/processed_churn.csv")
+df = pd.read_csv("processed_churn.csv")
 
 model = joblib.load("model/churn_model.pkl")
 scaler = joblib.load("model/scaler.pkl")
