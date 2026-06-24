@@ -45,7 +45,15 @@ streamlit run app.py
 - Internet Service Analysis
 - Monthly Charges Distribution
 - Feature Importance
+## 📸 Application Screenshots
 
+### Dashboard
+
+![Dashboard](dashboard.png)
+
+### Prediction Page
+
+![Prediction Page](prediction.png)
 ## 👨‍💻 Author
 
 **Vristi Sharma**
