@@ -12,8 +12,8 @@ st.set_page_config(
 # -----------------------------
 df = pd.read_csv("processed_churn.csv")
 
-model = joblib.load("model/churn_model.pkl")
-scaler = joblib.load("model/scaler.pkl")
+model = joblib.load("churn_model.pkl")
+scaler = joblib.load("scaler.pkl")
 
 X = df.drop("Churn", axis=1)
 
